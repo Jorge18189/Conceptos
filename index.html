@@ -70,6 +70,7 @@
             margin: 15px 0;
             list-style-type: disc;
         }
+
         .text-section li {
             margin-bottom: 10px;
             color: #444;
@@ -82,12 +83,24 @@
             overflow: hidden;
             margin-top: 15px;
             background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .image-container img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+
+        .image-contain img {
+            object-fit: contain;
+            background-color: #fff;
+        }
+
+        .image-contain {
+            height: 350px;
         }
 
         .video-container {
@@ -101,7 +114,9 @@
 
         .video-container iframe {
             position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
+            top: 0; left: 0; 
+            width: 100%; 
+            height: 100%;
             border: none;
         }
 
@@ -123,7 +138,7 @@
             <div class="card-header"><h2>01. Problema</h2></div>
             <div class="card-body">
                 <div class="text-section">
-                    <p>Un problema es una situación en la que existe una diferencia entre el estado actual y el estado deseado, y para pasar de uno a otro se requiere una solución o toma de decisiones. Desde el punto de vista económico un problema surge porque los recursos son limitados y las necesidades son ilimitadas, es decir, siempre existe escasez, y por eso hay que elegir cómo usar los recursos disponibles. En la ingeniería es una situación técnica que requiere diseñar, optimizar o mejorar un sistema, proceso o producto para cumplir una función específica de manera eficiente y funcional.</p>
+                    <p>Un problema es una situación en la que existe una diferencia entre el estado actual y el estado deseado...</p>
                     <div class="image-container">
                         <img src="1.jpg" alt="Problema">
                     </div>
@@ -140,7 +155,7 @@
             <div class="card-header"><h2>02. Escasez</h2></div>
             <div class="card-body">
                 <div class="text-section">
-                    <p>Es la condición en la que los recursos disponibles son limitados, mientras que las necesidades y deseos humanos son ilimitados, ósea que no hay los recursos suficientes para todos, generando la necesidad de elección.</p>
+                    <p>Es la condición en la que los recursos disponibles son limitados...</p>
                     <div class="image-container">
                         <img src="2.jpg.webp" alt="Escasez">
                     </div>
@@ -157,11 +172,11 @@
             <div class="card-header"><h2>03. Problema Económico</h2></div>
             <div class="card-body">
                 <div class="text-section">
-                    <p>Surge cuando los recursos son limitados y no alcanzan para satisfacer todas las necesidades (escasez), lo que obliga a tomar decisiones sobre cómo utilizarlos respondiendo el:</p>
+                    <p>Surge cuando los recursos son limitados...</p>
                     <ul>
-                        <li><strong>¿Qué?</strong> </li>
-                        <li><strong>¿Cómo?</strong> </li>
-                        <li><strong>¿Para?</strong></li>
+                        <li><strong>¿Qué?</strong></li>
+                        <li><strong>¿Cómo?</strong></li>
+                        <li><strong>¿Para quién?</strong></li>
                     </ul>
                     <div class="image-container">
                         <img src="3.jpeg" alt="Problema Económico">
@@ -174,26 +189,21 @@
                 </div>
             </div>
         </section>
-
         <section class="card">
             <div class="card-header"><h2>04. Factores o Recursos Productivos</h2></div>
             <div class="card-body">
                 <div class="text-section">
-                    <p>Son los recursos que se utilizan para producir bienes y servicios son elementos básicos que permiten que exista la producción en una economía, sin ellos, no se puede producir nada.
-Se clasifican en 4 principales: 
-</p>
+                    <p>Son los recursos que se utilizan para producir bienes y servicios...</p>
                     <ul>
-                        <li><strong>Tierra:</strong>Todos los recursos que provienen de la naturaleza. </li>
-                        <li><strong>Trabajo:</strong>El esfuerzo físico e intelectual realizado para la producción, requiere habilidades y conocimientos, ya sea físico o mental (obreros, ingenieros, mecánicos, doctores).
-</li>
-                        <li><strong>Capital:</strong>Bienes creados por otros para producir más servicios, no solo es la disponibilidad económica, es el producto del trabajo humano (maquinaria, edificios, herramientas).
-</li>
-                        <li><strong>Tecnología:</strong>Es el conocimiento, técnicas y organización necesarias para combinar los otros tres factores de manera eficiente para crear valor y generar innovaciones. 
-</li>
+                        <li><strong>Tierra:</strong> Recursos de la naturaleza.</li>
+                        <li><strong>Trabajo:</strong> Esfuerzo físico e intelectual.</li>
+                        <li><strong>Capital:</strong> Bienes creados para producir más bienes.</li>
+                        <li><strong>Tecnología:</strong> Conocimiento para combinar eficientemente los factores.</li>
                     </ul>
-                    <div class="image-container">
-    <img src="4.png" alt="Factores Productivos" style="object-fit: contain;">
-</div>
+
+                    <div class="image-container image-contain">
+                        <img src="4.png" alt="Factores Productivos">
+                    </div>
 
                 </div>
                 <div class="video-section">
